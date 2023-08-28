@@ -1,216 +1,142 @@
 {
-    "fonts": [
-      {
-        "family": "Abel",
-        "variants": [
-          "regular"
-        ],
-        "subsets": [
-          "latin"
-        ],
-        "version": "v18",
-        "lastModified": "2022-09-22",
-        "files": {
-          "regular": "http://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE6VhLPJp6qGI.ttf"
-        },
-        "category": "sans-serif",
-        "kind": "webfonts#webfont",
-        "id": 11
+  "fonts": [
+    {
+      "family": "Abel",
+      "variants": [
+        "regular"
+      ],
+      "subsets": [
+        "latin"
+      ],
+      "version": "v18",
+      "lastModified": "2022-09-22",
+      "files": {
+        "regular": "http://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE6VhLPJp6qGI.ttf"
       },
-      {
-        "family": "Abhaya Libre",
-        "variants": [
-          "regular",
-          "500",
-          "600",
-          "700",
-          "800"
-        ],
-        "subsets": [
-          "latin",
-          "latin-ext",
-          "sinhala"
-        ],
-        "version": "v13",
-        "lastModified": "2022-09-22",
-        "files": {
-          "500": "http://fonts.gstatic.com/s/abhayalibre/v13/e3t5euGtX-Co5MNzeAOqinEYj2ryqtxI6oYtBA.ttf",
-          "600": "http://fonts.gstatic.com/s/abhayalibre/v13/e3t5euGtX-Co5MNzeAOqinEYo23yqtxI6oYtBA.ttf",
-          "700": "http://fonts.gstatic.com/s/abhayalibre/v13/e3t5euGtX-Co5MNzeAOqinEYx2zyqtxI6oYtBA.ttf",
-          "800": "http://fonts.gstatic.com/s/abhayalibre/v13/e3t5euGtX-Co5MNzeAOqinEY22_yqtxI6oYtBA.ttf",
-          "regular": "http://fonts.gstatic.com/s/abhayalibre/v13/e3tmeuGtX-Co5MNzeAOqinEge0PWovdU4w.ttf"
-        },
-        "category": "serif",
-        "kind": "webfonts#webfont",
-        "id": 12
+      "category": "sans-serif",
+      "kind": "webfonts#webfont",
+      "id": 11
+    },
+    {
+      "family": "Abhaya Libre",
+      "variants": [
+        "regular",
+        "500",
+        "600",
+        "700",
+        "800"
+      ],
+      "subsets": [
+        "latin",
+        "latin-ext",
+        "sinhala"
+      ],
+      "version": "v13",
+      "lastModified": "2022-09-22",
+      "files": {
+        "500": "http://fonts.gstatic.com/s/abhayalibre/v13/e3t5euGtX-Co5MNzeAOqinEYj2ryqtxI6oYtBA.ttf",
+        "600": "http://fonts.gstatic.com/s/abhayalibre/v13/e3t5euGtX-Co5MNzeAOqinEYo23yqtxI6oYtBA.ttf",
+        "700": "http://fonts.gstatic.com/s/abhayalibre/v13/e3t5euGtX-Co5MNzeAOqinEYx2zyqtxI6oYtBA.ttf",
+        "800": "http://fonts.gstatic.com/s/abhayalibre/v13/e3t5euGtX-Co5MNzeAOqinEY22_yqtxI6oYtBA.ttf",
+        "regular": "http://fonts.gstatic.com/s/abhayalibre/v13/e3tmeuGtX-Co5MNzeAOqinEge0PWovdU4w.ttf"
       },
-      {
-        "family": "Aboreto",
-        "variants": [
-          "regular"
-        ],
-        "subsets": [
-          "latin",
-          "latin-ext"
-        ],
-        "version": "v2",
-        "lastModified": "2022-09-22",
-        "files": {
-          "regular": "http://fonts.gstatic.com/s/aboreto/v2/5DCXAKLhwDDQ4N8blKTeA2yuxSY.ttf"
-        },
-        "category": "display",
-        "kind": "webfonts#webfont",
-        "id": 13
-      }
-    ],
-    "templates": [
-      {
-        "name": "SCHITT'S CREEK",
-        "author": "Rob",
-        "date": "2022-11-01T23:00:00.000Z",
-        "compactibleBrowsers": [
-          {
-            "name": "Chrome"
-          },
-          {
-            "name": "Edge"
-          },
-          {
-            "name": "Firefox"
-          },
-          {
-            "name": "Opera"
-          },
-          {
-            "name": "Safari"
-          }
-        ],
-        "madeWith": [
-          {
-            "name": "HTML"
-          },
-          {
-            "name": "CSS"
-          }
-        ],
-        "responsive": true,
-        "code": {
-          "html": "<h1>\n  <span class=\"word\">Schitt<span class=\"superscript\">s</span> </span>\n  <span class=\"word\">Creek</span>\n</h1>",
-          "css": "/*\n\nTutorial:\nhttps://www.roboleary.net/animation/2022/10/31/how-to-make-a-slick-animation-schitts-creek-title-sequence.html\n\nPart of Title Sequences collection:\nhttps://codepen.io/collection/nNmwgP\n\nSource code:\nhttps://github.com/robole/title-sequences\n\n*/\n\n@import url(\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600\");\n\n:root {\n  --bar-scale-y: 0;\n  --sparkle-color: rgb(253 244 215 / 40%);\n}\n\n@keyframes pop-word {\n  to {\n    transform: rotateX(0);\n  }\n}\n\n@keyframes show {\n  to {\n    opacity: 1;\n  }\n}\n\n@keyframes bar-scale {\n  to {\n    transform: scaleY(1);\n  }\n}\n\n@keyframes sparkle {\n  0% {\n    transform: scale(0);\n  }\n\n  60% {\n    transform: scale(1) translate(4px, 1px) rotate(8deg);\n  }\n\n  100% {\n    transform: scale(0) translate(4px, 1px) rotate(8deg);\n  }\n}\n\n@keyframes shimmer {\n  to {\n    text-shadow: 0 0 8px red;\n  }\n}\n\nbody {\n  display: grid;\n  height: 100vh;\n\n  background-color: black;\n  place-items: center;\n}\n\nh1 {\n  color: white;\n  font-family: \"Playfair Display\", Vidaloka, serif;\n  font-size: 8rem;\n\n  line-height: 0.85;\n  perspective: 500px;\n}\n\n.word {\n  display: block;\n\n  animation: show 0.01s forwards, pop-word 1.5s forwards;\n  animation-timing-function: cubic-bezier(0.14, 1.23, 0.33, 1.16);\n  opacity: 0;\n\n  transform: rotateX(120deg);\n  transform-origin: 50% 100%;\n}\n\n.word:nth-of-type(2) {\n  padding: 0 2rem;\n\n  animation-delay: 1.5s;\n\n  color: gold;\n}\n\n.superscript {\n  position: relative;\n  animation-delay: 3.6s;\n\n  animation-duration: 0.25s;\n  animation-name: shimmer;\n\n  vertical-align: text-top;\n}\n\n/* bars */\n.superscript::before {\n  --bar-width: 25%;\n\n  position: absolute;\n\n  top: 37%;\n  left: 47%;\n  width: 14%;\n  height: 48%;\n\n  animation: bar-scale 0.25s linear 3s 1 forwards;\n\n  background: linear-gradient(\n    to right,\n    white var(--bar-width),\n    transparent var(--bar-width) calc(100% - var(--bar-width)),\n    white calc(100% - var(--bar-width))\n  );\n\n  content: \"\";\n\n  transform: scaleY(var(--bar-scale-y));\n}\n\n/* sparkle */\n.superscript::after {\n  --size: 10rem;\n\n  position: absolute;\n\n  top: -5%;\n  left: -85%;\n\n  width: var(--size);\n  height: var(--size);\n\n  animation: sparkle 0.4s linear 3.5s 1 forwards;\n\n  background: radial-gradient(\n      circle at center,\n      rgb(252 249 241 / 94%) 0% 7%,\n      transparent 7% 100%\n    ),\n    conic-gradient(\n      transparent 0deg 18deg,\n      var(--sparkle-color) 18deg,\n      transparent 20deg 40deg,\n      var(--sparkle-color) 40deg,\n      transparent 43deg 87deg,\n      var(--sparkle-color) 87deg,\n      transparent 95deg 175deg,\n      var(--sparkle-color) 175deg,\n      transparent 178deg 220deg,\n      var(--sparkle-color) 220deg,\n      transparent 222deg 270deg,\n      var(--sparkle-color) 270deg,\n      transparent 275deg 300deg,\n      var(--sparkle-color) 300deg,\n      transparent 303deg 360deg\n    );\n\n  border-radius: 50%;\n  clip-path: polygon(\n    50% 0,\n    59.13% 26.64%,\n    85.13% -2.35%,\n    100% 50%,\n    50% 100%,\n    0 50%,\n    31.39% 34.86%\n  );\n\n  content: \"\";\n\n  filter: blur(1px);\n\n  transform: scale(0);\n}\n\n@media screen and (max-width: 600px) {\n  h1 {\n    font-size: 5rem;\n  }\n\n  /* sparkle */\n  .superscript::after {\n    --size: 6rem;\n  }\n}\n",
-          "js": ""
-        },
-        "id": 1
+      "category": "serif",
+      "kind": "webfonts#webfont",
+      "id": 12
+    },
+    {
+      "family": "Aboreto",
+      "variants": [
+        "regular"
+      ],
+      "subsets": [
+        "latin",
+        "latin-ext"
+      ],
+      "version": "v2",
+      "lastModified": "2022-09-22",
+      "files": {
+        "regular": "http://fonts.gstatic.com/s/aboreto/v2/5DCXAKLhwDDQ4N8blKTeA2yuxSY.ttf"
       },
-      {
-        "name": "GHOSTS AND GHOULS",
-        "author": "Sicontis",
-        "date": "2022-10-20T23:00:00.000Z",
-        "compactibleBrowsers": [
-          {
-            "name": "Chrome"
-          },
-          {
-            "name": "Edge"
-          },
-          {
-            "name": "Opera"
-          },
-          {
-            "name": "Safari"
-          },
-          {
-            "name": "Firefox"
-          }
-        ],
-        "madeWith": [
-          {
-            "name": "HTML"
-          },
-          {
-            "name": "CSS"
-          }
-        ],
-        "responsive": true,
-        "code": {
-          "html": "<div class=\"container\">\n\t<div class=\"title\">\n\t\t<h1>GHOST</h1>\n\t</div>\n\t<div class=\"ghost\">\n\t\t<div></div>\n\t\t<div></div>\n\t\t<div></div>\n\t\t<div></div>\n\t\t<div></div>\n\t</div>\n</div>",
-          "css": "@import url(\"https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap\");\n\n* {\n\tpadding: 0;\n\tmargin: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tmin-height: 100vh;\n\tdisplay: grid;\n\tplace-items: center;\n\n\t--bkg: #5eb3fd;\n\t--white: #e7e6e6;\n\n\tbackground-color: var(--white);\n\tbackground-image: url(\"https://www.transparenttextures.com/patterns/concrete-wall.png\");\n}\n\n.container {\n\twidth: 100%;\n\theight: 100%;\n\tdisplay: grid;\n\tplace-items: center;\n\toverflow: hidden;\n}\n\n.title {\n\tposition: absolute;\n\ttop: 50%;\n\tleft: 50%;\n\ttransform: translate(-50%, -50%);\n}\n.title h1 {\n\tfont-size: 25vmin;\n\tfont-weight: 900;\n\tfont-family: \"Montserrat\", sans-serif;\n\tcolor: black;\n}\n\n.ghost {\n\twidth: 8vmin;\n\theight: 12vmin;\n\tbackground-color: var(--white);\n\tbackground-image: url(\"https://www.transparenttextures.com/patterns/concrete-wall.png\");\n\tbackground-image: radial-gradient(ellipse at 35% 40%, #000 8%, transparent 0%),\n\t\tradial-gradient(ellipse at 65% 40%, #000 8%, transparent 0%),\n\t\tradial-gradient(ellipse at 50% 60%, #000 8%, transparent 0%);\n\tborder-radius: 100% / 70% 70% 0% 0%;\n\ttransform: translateX(100em) rotateZ(-90deg);\n\tposition: relative;\n\topacity: 0.9;\n\tmix-blend-mode: exclusion;\n\tanimation: ghostMove 4s ease-out infinite;\n}\n@keyframes ghostMove {\n\t0% {\n\t\ttransform: translateX(30em) rotateZ(-90deg);\n\t}\n\t100% {\n\t\ttransform: translateX(-35em) rotateZ(-90deg);\n\t}\n}\n.ghost div {\n\tposition: absolute;\n\twidth: 20%;\n\tbackground-color: var(--white);\n\tbackground-image: url(\"https://www.transparenttextures.com/patterns/concrete-wall.png\");\n}\n.ghost div:nth-of-type(1) {\n\theight: 7vmin;\n\tleft: 0;\n\tbottom: -6vmin;\n\tborder-radius: 100% / 0% 0% 50% 50%;\n}\n.ghost div:nth-of-type(2),\n.ghost div:nth-of-type(4) {\n\theight: 4vmin;\n\tleft: 20%;\n\tbottom: -3vmin;\n\tborder-radius: 100% / 50% 50% 0% 0%;\n\tbackground-color: transparent;\n}\n.ghost div:nth-of-type(3) {\n\theight: 4vmin;\n\tleft: 40%;\n\tbottom: -3.95vmin;\n\tborder-radius: 100% / 0% 0% 60% 60%;\n\tbackground-color: var(--white);\n}\n.ghost div:nth-of-type(4) {\n\tleft: 60%;\n}\n.ghost div:nth-of-type(5) {\n\theight: 3vmin;\n\tleft: 80%;\n\tbottom: -2.9vmin;\n\tborder-radius: 100% / 0% 0% 70% 70%;\n\tbackground-color: var(--white);\n}\n",
-          "js": ""
+      "category": "display",
+      "kind": "webfonts#webfont",
+      "id": 13
+    }
+  ],
+  "templates": [
+    {
+      "name": "SCHITT'S CREEK",
+      "author": "Rob",
+      "date": "2022-11-01T23:00:00.000Z",
+      "compactibleBrowsers": [
+        {
+          "name": "Chrome"
         },
-        "id": 2
+        {
+          "name": "Edge"
+        },
+        {
+          "name": "Firefox"
+        },
+        {
+          "name": "Opera"
+        },
+        {
+          "name": "Safari"
+        }
+      ],
+      "madeWith": [
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "CSS"
+        }
+      ],
+      "responsive": true,
+      "code": {
+        "html": "<h1>\n  <span class=\"word\">Schitt<span class=\"superscript\">s</span> </span>\n  <span class=\"word\">Creek</span>\n</h1>",
+        "css": "/*\n\nTutorial:\nhttps://www.roboleary.net/animation/2022/10/31/how-to-make-a-slick-animation-schitts-creek-title-sequence.html\n\nPart of Title Sequences collection:\nhttps://codepen.io/collection/nNmwgP\n\nSource code:\nhttps://github.com/robole/title-sequences\n\n*/\n\n@import url(\"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600\");\n\n:root {\n  --bar-scale-y: 0;\n  --sparkle-color: rgb(253 244 215 / 40%);\n}\n\n@keyframes pop-word {\n  to {\n    transform: rotateX(0);\n  }\n}\n\n@keyframes show {\n  to {\n    opacity: 1;\n  }\n}\n\n@keyframes bar-scale {\n  to {\n    transform: scaleY(1);\n  }\n}\n\n@keyframes sparkle {\n  0% {\n    transform: scale(0);\n  }\n\n  60% {\n    transform: scale(1) translate(4px, 1px) rotate(8deg);\n  }\n\n  100% {\n    transform: scale(0) translate(4px, 1px) rotate(8deg);\n  }\n}\n\n@keyframes shimmer {\n  to {\n    text-shadow: 0 0 8px red;\n  }\n}\n\nbody {\n  display: grid;\n  height: 100vh;\n\n  background-color: black;\n  place-items: center;\n}\n\nh1 {\n  color: white;\n  font-family: \"Playfair Display\", Vidaloka, serif;\n  font-size: 8rem;\n\n  line-height: 0.85;\n  perspective: 500px;\n}\n\n.word {\n  display: block;\n\n  animation: show 0.01s forwards, pop-word 1.5s forwards;\n  animation-timing-function: cubic-bezier(0.14, 1.23, 0.33, 1.16);\n  opacity: 0;\n\n  transform: rotateX(120deg);\n  transform-origin: 50% 100%;\n}\n\n.word:nth-of-type(2) {\n  padding: 0 2rem;\n\n  animation-delay: 1.5s;\n\n  color: gold;\n}\n\n.superscript {\n  position: relative;\n  animation-delay: 3.6s;\n\n  animation-duration: 0.25s;\n  animation-name: shimmer;\n\n  vertical-align: text-top;\n}\n\n/* bars */\n.superscript::before {\n  --bar-width: 25%;\n\n  position: absolute;\n\n  top: 37%;\n  left: 47%;\n  width: 14%;\n  height: 48%;\n\n  animation: bar-scale 0.25s linear 3s 1 forwards;\n\n  background: linear-gradient(\n    to right,\n    white var(--bar-width),\n    transparent var(--bar-width) calc(100% - var(--bar-width)),\n    white calc(100% - var(--bar-width))\n  );\n\n  content: \"\";\n\n  transform: scaleY(var(--bar-scale-y));\n}\n\n/* sparkle */\n.superscript::after {\n  --size: 10rem;\n\n  position: absolute;\n\n  top: -5%;\n  left: -85%;\n\n  width: var(--size);\n  height: var(--size);\n\n  animation: sparkle 0.4s linear 3.5s 1 forwards;\n\n  background: radial-gradient(\n      circle at center,\n      rgb(252 249 241 / 94%) 0% 7%,\n      transparent 7% 100%\n    ),\n    conic-gradient(\n      transparent 0deg 18deg,\n      var(--sparkle-color) 18deg,\n      transparent 20deg 40deg,\n      var(--sparkle-color) 40deg,\n      transparent 43deg 87deg,\n      var(--sparkle-color) 87deg,\n      transparent 95deg 175deg,\n      var(--sparkle-color) 175deg,\n      transparent 178deg 220deg,\n      var(--sparkle-color) 220deg,\n      transparent 222deg 270deg,\n      var(--sparkle-color) 270deg,\n      transparent 275deg 300deg,\n      var(--sparkle-color) 300deg,\n      transparent 303deg 360deg\n    );\n\n  border-radius: 50%;\n  clip-path: polygon(\n    50% 0,\n    59.13% 26.64%,\n    85.13% -2.35%,\n    100% 50%,\n    50% 100%,\n    0 50%,\n    31.39% 34.86%\n  );\n\n  content: \"\";\n\n  filter: blur(1px);\n\n  transform: scale(0);\n}\n\n@media screen and (max-width: 600px) {\n  h1 {\n    font-size: 5rem;\n  }\n\n  /* sparkle */\n  .superscript::after {\n    --size: 6rem;\n  }\n}\n",
+        "js": ""
       },
-      {
-        "name": "TEXT SLIDE",
-        "author": "Carlos Córdova",
-        "date": "2022-01-02T23:00:00.000Z",
-        "compactibleBrowsers": [
-          {
-            "name": "Chrome"
-          },
-          {
-            "name": "Edge"
-          },
-          {
-            "name": "Firefox"
-          },
-          {
-            "name": "Opera"
-          },
-          {
-            "name": "Samsung"
-          }
-        ],
-        "madeWith": [
-          {
-            "name": "HTML"
-          },
-          {
-            "name": "CSS"
-          }
-        ],
-        "responsive": true,
-        "code": {
-          "html": "<main class=\"container\">\n  <p>Hello 👋 I'm</p>\n  <section class=\"animation\">\n    <div class=\"first\"><div>Carlos Córdova</div></div>\n    <div class=\"second\"><div>Web Developer</div></div>\n    <div class=\"third\"><div>Systems Engineer</div></div>\n  </section>\n</main>",
-          "css": "@import url('https://fonts.googleapis.com/css?family=Roboto:700');\n\nbody {\n  font-family:'Roboto';\n  background-color: #131417;  \n}\np {\n  text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);\n}\n.container {\n  color: #e5e5e5;\n  font-size: 2.26rem;\n  text-transform: uppercase;\n  height: 100vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.animation {\n  height:50px;\n  overflow:hidden;\n  margin-left: 1rem;\n}\n\n.animation > div > div {\n  padding: 0.25rem 0.75rem;\n  height:2.81rem;\n  margin-bottom: 2.81rem;\n  display:inline-block;\n}\n\n.animation div:first-child {\n  animation: text-animation 8s infinite;\n}\n\n.first div {\n  background-color:#20a7d8;\n}\n.second div {\n  background-color:#CD921E;\n}\n.third div {\n  background-color:#c10528;\n}\n\n@keyframes text-animation {\n  0% {margin-top: 0;}\n  10% {margin-top: 0;}\n  20% {margin-top: -5.62rem;}\n  30% {margin-top: -5.62rem;}\n  40% {margin-top: -11.24rem;}\n  60% {margin-top: -11.24rem;}\n  70% {margin-top: -5.62rem;}\n  80% {margin-top: -5.62rem;}\n  90% {margin-top: 0;}\n  100% {margin-top: 0;}\n}\n",
-          "js": ""
+      "id": 1
+    },
+    {
+      "name": "GHOSTS AND GHOULS",
+      "author": "Sicontis",
+      "date": "2022-10-20T23:00:00.000Z",
+      "compactibleBrowsers": [
+        {
+          "name": "Chrome"
         },
-        "id": 3
+        {
+          "name": "Edge"
+        },
+        {
+          "name": "Opera"
+        },
+        {
+          "name": "Safari"
+        },
+        {
+          "name": "Firefox"
+        }
+      ],
+      "madeWith": [
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "CSS"
+        }
+      ],
+      "responsive": true,
+      "code": {
+        "html": "<div class=\"container\">\n\t<div class=\"title\">\n\t\t<h1>GHOST</h1>\n\t</div>\n\t<div class=\"ghost\">\n\t\t<div></div>\n\t\t<div></div>\n\t\t<div></div>\n\t\t<div></div>\n\t\t<div></div>\n\t</div>\n</div>",
+        "css": "@import url(\"https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap\");\n\n* {\n\tpadding: 0;\n\tmargin: 0;\n\tbox-sizing: border-box;\n}\n\nbody {\n\tmin-height: 100vh;\n\tdisplay: grid;\n\tplace-items: center;\n\n\t--bkg: #5eb3fd;\n\t--white: #e7e6e6;\n\n\tbackground-color: var(--white);\n\tbackground-image: url(\"https://www.transparenttextures.com/patterns/concrete-wall.png\");\n}\n\n.container {\n\twidth: 100%;\n\theight: 100%;\n\tdisplay: grid;\n\tplace-items: center;\n\toverflow: hidden;\n}\n\n.title {\n\tposition: absolute;\n\ttop: 50%;\n\tleft: 50%;\n\ttransform: translate(-50%, -50%);\n}\n.title h1 {\n\tfont-size: 25vmin;\n\tfont-weight: 900;\n\tfont-family: \"Montserrat\", sans-serif;\n\tcolor: black;\n}\n\n.ghost {\n\twidth: 8vmin;\n\theight: 12vmin;\n\tbackground-color: var(--white);\n\tbackground-image: url(\"https://www.transparenttextures.com/patterns/concrete-wall.png\");\n\tbackground-image: radial-gradient(ellipse at 35% 40%, #000 8%, transparent 0%),\n\t\tradial-gradient(ellipse at 65% 40%, #000 8%, transparent 0%),\n\t\tradial-gradient(ellipse at 50% 60%, #000 8%, transparent 0%);\n\tborder-radius: 100% / 70% 70% 0% 0%;\n\ttransform: translateX(100em) rotateZ(-90deg);\n\tposition: relative;\n\topacity: 0.9;\n\tmix-blend-mode: exclusion;\n\tanimation: ghostMove 4s ease-out infinite;\n}\n@keyframes ghostMove {\n\t0% {\n\t\ttransform: translateX(30em) rotateZ(-90deg);\n\t}\n\t100% {\n\t\ttransform: translateX(-35em) rotateZ(-90deg);\n\t}\n}\n.ghost div {\n\tposition: absolute;\n\twidth: 20%;\n\tbackground-color: var(--white);\n\tbackground-image: url(\"https://www.transparenttextures.com/patterns/concrete-wall.png\");\n}\n.ghost div:nth-of-type(1) {\n\theight: 7vmin;\n\tleft: 0;\n\tbottom: -6vmin;\n\tborder-radius: 100% / 0% 0% 50% 50%;\n}\n.ghost div:nth-of-type(2),\n.ghost div:nth-of-type(4) {\n\theight: 4vmin;\n\tleft: 20%;\n\tbottom: -3vmin;\n\tborder-radius: 100% / 50% 50% 0% 0%;\n\tbackground-color: transparent;\n}\n.ghost div:nth-of-type(3) {\n\theight: 4vmin;\n\tleft: 40%;\n\tbottom: -3.95vmin;\n\tborder-radius: 100% / 0% 0% 60% 60%;\n\tbackground-color: var(--white);\n}\n.ghost div:nth-of-type(4) {\n\tleft: 60%;\n}\n.ghost div:nth-of-type(5) {\n\theight: 3vmin;\n\tleft: 80%;\n\tbottom: -2.9vmin;\n\tborder-radius: 100% / 0% 0% 70% 70%;\n\tbackground-color: var(--white);\n}\n",
+        "js": ""
       },
-      {
-        "name": "CITY NIGHTS",
-        "author": "Philip Zastrow",
-        "date": "2021-12-16T23:00:00.000Z",
-        "compactibleBrowsers": [
-          {
-            "name": "Chrome"
-          },
-          {
-            "name": "Edge"
-          },
-          {
-            "name": "Opera"
-          },
-          {
-            "name": "Safari"
-          },
-          {
-            "name": "Firefox"
-          }
-        ],
-        "madeWith": [
-          {
-            "name": "HTML"
-          },
-          {
-            "name": "CSS"
-          }
-        ],
-        "responsive": true,
-        "code": {
-          "html": "<h2>City Nights Effect</h2>",
-          "css": "@keyframes lights {\n  0% {\n    color: hsl(230, 40%, 80%);\n    text-shadow:\n      0 0 1em hsla(320, 100%, 50%, 0.2),\n      0 0 0.125em hsla(320, 100%, 60%, 0.3),\n      -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),\n      1em 0.125em 0.5em hsla(200, 100%, 60%, 0);\n  }\n  \n  30% { \n    color: hsl(230, 80%, 90%);\n    text-shadow:\n      0 0 1em hsla(320, 100%, 50%, 0.5),\n      0 0 0.125em hsla(320, 100%, 60%, 0.5),\n      -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),\n      0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);\n  }\n  \n  40% { \n    color: hsl(230, 100%, 95%);\n    text-shadow:\n      0 0 1em hsla(320, 100%, 50%, 0.5),\n      0 0 0.125em hsla(320, 100%, 90%, 0.5),\n      -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),\n      0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);\n  }\n  \n  70% {\n    color: hsl(230, 80%, 90%);\n    text-shadow:\n      0 0 1em hsla(320, 100%, 50%, 0.5),\n      0 0 0.125em hsla(320, 100%, 60%, 0.5),\n      0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),\n      -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);\n  }\n  \n  100% {\n    color: hsl(230, 40%, 80%);\n    text-shadow:\n      0 0 1em hsla(320, 100%, 50%, 0.2),\n      0 0 0.125em hsla(320, 100%, 60%, 0.3),\n      1em -0.125em 0.5em hsla(40, 100%, 60%, 0),\n      -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);\n  }\n  \n}\n\nbody {\n  margin: 0;\n  font: 100% / 1.5 Raleway, sans-serif;\n  color: hsl(230, 100%, 95%);\n  background: linear-gradient(135deg, hsl(230, 40%, 12%), hsl(230, 20%, 7%));\n  height: 100vh;\n  display: flex;\n}\n\nh2 {\n  margin: auto;\n  font-size: 3.5rem;\n  font-weight: 300;\n  animation: lights 5s 750ms linear infinite;\n}",
-          "js": ""
-        },
-        "id": 5
-      }
-    ]
-  }
+      "id": 2
+    }
+  ]
+}
